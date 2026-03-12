@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Lobster claw -->
+  <g transform="translate(100,110)">
+    <!-- Upper pincer -->
+    <path d="M-10,-50 C-30,-70 -10,-90 15,-75 C25,-68 30,-55 20,-45 Z"
+          fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
+    <!-- Lower pincer -->
+    <path d="M-10,-50 C-30,-30 -10,-10 15,-25 C25,-32 30,-42 20,-45 Z"
+          fill="#E74C3C" stroke="#C0392B" stroke-width="2"/>
+    <!-- Arm -->
+    <path d="M-10,-50 C-20,-50 -35,-45 -45,-35 C-55,-25 -55,-10 -45,0"
+          fill="none" stroke="#C0392B" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- SMS bubble being pinched -->
+  <g transform="translate(120,52)">
+    <rect x="-22" y="-18" width="44" height="30" rx="6" fill="#3498DB" stroke="#2980B9" stroke-width="1.5"/>
+    <polygon points="-8,12 -2,12 -6,20" fill="#3498DB" stroke="#2980B9" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- SMS lines -->
+    <line x1="-14" y1="-8" x2="14" y2="-8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-14" y1="-1" x2="8" y2="-1" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-14" y1="6" x2="4" y2="6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Text -->
+  <text x="100" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#2C3E50">pinchsms</text>
+</svg>
